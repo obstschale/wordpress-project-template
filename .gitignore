@@ -1,0 +1,30 @@
+# Ignore WordPress files
+/public/wp
+
+# Ignore composer vendor files
+/vendor
+
+# Ignore local and production configs. We don't want to commit credentials
+production-config.php
+local-config.php
+
+# Don’t ignore themes dir, but ignore everything inside
+!public/wp-content/themes
+public/wp-content/themes/*
+
+# Don’t ignore twentysixteen-child
+!public/wp-content/themes/twentysixteen-child
+
+# Don't ignore plugins dir, but ignore everything inside
+!public/wp-content/plugins
+public/wp-content/plugins/*
+
+# Don't save uploads. This is saved with backups
+public/wp-content/uploads
+
+# Don't ignore languages dir, but ignore everything inside
+!public/wp-content/languages
+public/wp-content/languages/*
+
+# Don't track Deployer's server.yml
+servers.yml

@@ -1,0 +1,10 @@
+# This is a sample servers.yml file.
+# I don't recommend to version your server information in git
+prod:
+  host: myawesomehost.com
+  user: username
+  identity_file: ~/.ssh/id_rsa
+  password:
+  stage: production
+  deploy_path: /var/www/myawesomehost.com
+
