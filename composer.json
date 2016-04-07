@@ -16,7 +16,8 @@
         "php": ">=5.4",
         "composer/installers": "1.*",
         "johnpbloch/wordpress": "4.3.*",
-        "wpackagist-theme/twentysixteen": "0.1.*",
+        "wpackagist-theme/twentyfifteen": "1.*",
+        "wpackagist-theme/twentysixteen": "1.*.*",
         "wpackagist-plugin/hello-dolly": "1.6"
     },
     "extra": {
