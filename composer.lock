@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7119c1a02cc4e8f78831eb5461e6d525",
-    "content-hash": "84466b9fe7cce2430a0b0722a0efca80",
+    "hash": "5f78eaf369176d14ca7564dc18734fbc",
+    "content-hash": "e388a7ec80699cef62986ec474b93ec1",
     "packages": [
         {
             "name": "composer/installers",
@@ -213,16 +213,36 @@
             "homepage": "https://wordpress.org/plugins/hello-dolly/"
         },
         {
-            "name": "wpackagist-theme/twentysixteen",
-            "version": "0.1.20151205",
+            "name": "wpackagist-theme/twentyfifteen",
+            "version": "1.4",
             "source": {
                 "type": "svn",
-                "url": "https://themes.svn.wordpress.org/twentysixteen/",
-                "reference": "0.1.20151205"
+                "url": "https://themes.svn.wordpress.org/twentyfifteen/",
+                "reference": "1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentysixteen.0.1.20151205.zip",
+                "url": "https://downloads.wordpress.org/theme/twentyfifteen.1.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/twentyfifteen/"
+        },
+        {
+            "name": "wpackagist-theme/twentysixteen",
+            "version": "1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/twentysixteen/",
+                "reference": "1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/twentysixteen.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
